@@ -23,7 +23,7 @@ const App = () => {
   const startCount = (time) => {
     let { total, hours, minutes, seconds }  = getTimeRemaining(time);
     //console.log(time)
-    if(total>=-1){
+    if(total>=0){
       //setRemainingTime(remaingTime-1)
       rt.current.innerText = rt.current.innerText-1;
     }else{
